@@ -1,0 +1,6 @@
+INFO - 2022-10-15 00:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-10-15 00:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-10-15 00:26:30 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2022-10-15 00:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-10-15 00:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-10-15 00:26:33 --> Controller "App\Controllers\base\Dashboard" loaded.
