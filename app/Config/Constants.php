@@ -78,15 +78,15 @@ defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125); // highest auto
 
 /* PENGATURAN OFFLINE */ 
 // LINK DOMAIN WITH URL
-define('SITE_UTAMA', 'http://udo.com'); 
-define('SITE_UNDANGAN', 'http://buka.udo.com');
-define('SITE_ADMIN', 'http://owner.udo.com');
+define('SITE_UTAMA', 'http://udo.co.id'); 
+define('SITE_UNDANGAN', 'http://buka.udo.co.id');
+define('SITE_ADMIN', 'http://refeed.co.id');
 
 //DOMAIN ONLY
-define('DOMAIN_UTAMA', 'udo.com');
-define('DOMAIN_UTAMA_WWW', 'www.udo.com');
-define('DOMAIN_UNDANGAN', 'buka.udo.com');
-define('DOMAIN_ADMIN', 'owner.udo.com');
+define('DOMAIN_UTAMA', 'udo.co.id');
+define('DOMAIN_UTAMA_WWW', 'www.udo.co.id');
+define('DOMAIN_UNDANGAN', 'buka.udo.co.id');
+define('DOMAIN_ADMIN', 'refeed.co.id');
 /**/
   
 /* PENGATURAN ONLINE * / 

@@ -1,0 +1,6 @@
+INFO - 2022-11-05 09:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-05 09:27:42 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-05 09:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-05 09:28:08 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-05 09:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-05 09:28:08 --> Controller "App\Controllers\base\Beranda" loaded.

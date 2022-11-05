@@ -86,7 +86,8 @@
         </div>
     </header>
 
-      <section class="fdb-block cover d-flex align-items-center" style="border-radius: 0px 0px 94px 94px;" >
+      <section class="fdb-block cover d-flex align-items-center" style="border-radius: 0px 0px 94px 94px;     box-shadow: 0px 6px 20px #0000008f;
+    margin-bottom: 2rem;" >
         <div class="container align-items-end justify-content-center d-flex">
           <div class="row align-items-top text-left">
             <div class="col-12 col-md-6 col-lg-6">
@@ -98,7 +99,8 @@
               ?>
               
                 <div class="col-lg-6 mb-5">
-                <a href="<?= base_url() ?>/<?= $row_widget_data_cover_links->widget_links_url ?>" class="btn btn-info">
+                <a href="<?= base_url() ?>/<?= $row_widget_data_cover_links->widget_links_url ?>" style="border-radius: 12px;
+    box-shadow: 0px 4px 20px #0000007a;" class="btn btn-info">
                   <?= $row_widget_data_cover_links->widget_links_judul ?>
                    
                   
@@ -111,14 +113,16 @@
             </div>
       
             <div class="col-12 col-sm-4 col-md-6 col-lg-4 m-auto">
-              <img alt="image" class="rounded-circle img-fluid " src="<?php echo base_url() ?>/assets/base/img/home-foto-model.png?<?= date("Y-m-d"); ?>">
+              <img alt="image" class="img-fluid " src="<?php echo base_url() ?>/assets/base/img/home-foto-model.png?<?= date("Y-m-d"); ?>">
             </div>
           </div>
         </div>
       </section>
 
       <section class="fdb-block fitur" id="fitur">
-        <div class="container">
+        <div class="container" style="box-shadow: 0px 0px 20px #00000085;
+    border-radius: 22px;
+    padding: 2rem;">
           <div class="row text-center">
             <div class="col-12">
               <h1><?= $widget_data_fitur[0]->widget_judul ?></h1>
