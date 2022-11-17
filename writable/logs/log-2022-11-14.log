@@ -1,0 +1,552 @@
+INFO - 2022-11-14 07:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:03:01 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:03:04 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:03:04 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:03:06 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:03:10 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:04:37 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:04:50 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:06:17 --> Controller "App\Controllers\base\Beranda" loaded.
+CRITICAL - 2022-11-14 07:06:17 --> Unknown database 'udo'
+#0 D:\laragon\www\kuydateng\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\kuydateng\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\kuydateng\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\kuydateng\app\Models\base\BerandaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\kuydateng\app\Controllers\base\Beranda.php(34): App\Models\base\BerandaModel->get_all_website_umum()
+#5 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Beranda->index()
+#6 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Beranda))
+#7 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-11-14 07:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:06:17 --> Controller "App\Controllers\base\Beranda" loaded.
+CRITICAL - 2022-11-14 07:06:17 --> Unknown database 'udo'
+#0 D:\laragon\www\kuydateng\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\kuydateng\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\kuydateng\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\kuydateng\app\Models\base\BerandaModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\kuydateng\app\Controllers\base\Beranda.php(34): App\Models\base\BerandaModel->get_all_website_umum()
+#5 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Beranda->index()
+#6 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Beranda))
+#7 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2022-11-14 07:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:08:47 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:08:47 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:09:33 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:09:47 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:11:16 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:11:16 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:11:25 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:12:56 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:14:23 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:15:05 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:15:05 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:15:05 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:16:03 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:16:03 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:16:03 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:16:03 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:16:03 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:16:17 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:16:22 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:16:25 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:17:11 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:17:11 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:17:23 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:17:23 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:21:20 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:21:45 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:21:45 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 07:21:45 --> Request URI segment is our of range: 4
+#0 D:\laragon\www\kuydateng\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+#1 D:\laragon\www\kuydateng\app\Controllers\admin\Admin.php(106): CodeIgniter\HTTP\URI->getSegment(4)
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->dashboard()
+#3 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#4 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2022-11-14 07:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:21:59 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 07:21:59 --> Request URI segment is our of range: 4
+#0 D:\laragon\www\kuydateng\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+#1 D:\laragon\www\kuydateng\app\Controllers\admin\Admin.php(106): CodeIgniter\HTTP\URI->getSegment(4)
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->dashboard()
+#3 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#4 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2022-11-14 07:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:23:06 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 07:23:06 --> Request URI segment is our of range: 4
+#0 D:\laragon\www\kuydateng\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+#1 D:\laragon\www\kuydateng\app\Controllers\admin\Admin.php(102): CodeIgniter\HTTP\URI->getSegment(4)
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->dashboard()
+#3 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#4 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2022-11-14 07:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:23:10 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:23:16 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:23:34 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 07:23:34 --> Request URI segment is our of range: 4
+#0 D:\laragon\www\kuydateng\system\HTTP\URI.php(485): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(4)
+#1 D:\laragon\www\kuydateng\app\Controllers\admin\Admin.php(106): CodeIgniter\HTTP\URI->getSegment(4)
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->dashboard()
+#3 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#4 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2022-11-14 07:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:23:51 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:12 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:24 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:32 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:36 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:55 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:25:07 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:29:10 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:29:10 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:29:38 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:29:38 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:30:14 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:30:14 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:30:17 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:32:19 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:36:48 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:37:00 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:38:20 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:38:20 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:38:26 --> Controller "App\Controllers\base\Beranda" loaded.
+CRITICAL - 2022-11-14 07:38:26 --> Invalid file: undangan/themes/Merak_maling.php
+#0 D:\laragon\www\kuydateng\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('undangan/themes...')
+#1 D:\laragon\www\kuydateng\system\Common.php(1071): CodeIgniter\View\View->render('undangan/themes...', Array, true)
+#2 D:\laragon\www\kuydateng\app\Controllers\base\Beranda.php(154): view('undangan/themes...', Array)
+#3 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Beranda->demo()
+#4 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Beranda))
+#5 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2022-11-14 07:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:38:27 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:39:01 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:39:04 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:39:06 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:39:07 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:41:38 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:42:18 --> Controller "App\Controllers\base\Order" loaded.
+CRITICAL - 2022-11-14 07:42:18 --> Undefined offset: 0
+#0 D:\laragon\www\kuydateng\app\Controllers\base\Order.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 82, Array)
+#1 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Order->mempelai()
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Order))
+#3 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-11-14 07:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:42:18 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:44:19 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:46:06 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:46:08 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:46:16 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 07:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:47:00 --> Controller "App\Controllers\base\Order" loaded.
+CRITICAL - 2022-11-14 07:47:00 --> Undefined offset: 0
+#0 D:\laragon\www\kuydateng\app\Controllers\base\Order.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 149, Array)
+#1 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Order->acara()
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Order))
+#3 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2022-11-14 07:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:47:00 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:47:32 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:48:40 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:49:55 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:49:55 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:50:19 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:50:26 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:50:29 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:50:29 --> Controller "App\Controllers\base\Order" loaded.
+INFO - 2022-11-14 07:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:50:37 --> Controller "App\Controllers\undangan\Undangan" loaded.
+INFO - 2022-11-14 07:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:50:37 --> Controller "App\Controllers\undangan\Undangan" loaded.
+INFO - 2022-11-14 07:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:50:42 --> Controller "App\Controllers\base\Dashboard" loaded.
+CRITICAL - 2022-11-14 07:50:42 --> Undefined variable: pilihanmenuS5
+#0 D:\laragon\www\kuydateng\app\Views\base\dashboard\layout.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 97, Array)
+#1 D:\laragon\www\kuydateng\system\View\View.php(236): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\kuydateng\system\Common.php(1071): CodeIgniter\View\View->render('base/dashboard/...', Array, true)
+#3 D:\laragon\www\kuydateng\app\Controllers\base\Dashboard.php(41): view('base/dashboard/...', Array)
+#4 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Dashboard->index()
+#5 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Dashboard))
+#6 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-11-14 07:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:50:42 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:51:27 --> Controller "App\Controllers\base\Dashboard" loaded.
+CRITICAL - 2022-11-14 07:51:27 --> Undefined index: sistem_versi
+#0 D:\laragon\www\kuydateng\app\Views\base\dashboard\layout.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 130, Array)
+#1 D:\laragon\www\kuydateng\system\View\View.php(236): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\kuydateng\system\Common.php(1071): CodeIgniter\View\View->render('base/dashboard/...', Array, true)
+#3 D:\laragon\www\kuydateng\app\Controllers\base\Dashboard.php(41): view('base/dashboard/...', Array)
+#4 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Dashboard->index()
+#5 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Dashboard))
+#6 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-11-14 07:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:51:27 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:52:19 --> Controller "App\Controllers\base\Dashboard" loaded.
+CRITICAL - 2022-11-14 07:52:19 --> Undefined index: sistem_versi
+#0 D:\laragon\www\kuydateng\app\Views\base\dashboard\layout.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 130, Array)
+#1 D:\laragon\www\kuydateng\system\View\View.php(236): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\kuydateng\system\Common.php(1071): CodeIgniter\View\View->render('base/dashboard/...', Array, true)
+#3 D:\laragon\www\kuydateng\app\Controllers\base\Dashboard.php(41): view('base/dashboard/...', Array)
+#4 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Dashboard->index()
+#5 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Dashboard))
+#6 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-11-14 07:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:52:19 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 07:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:53:44 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2022-11-14 07:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 07:53:44 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 08:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:26 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 08:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:32 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 08:05:32 --> Too few arguments to function App\Controllers\admin\Admin::list_pengguna_hapus_user(), 0 passed in D:\laragon\www\kuydateng\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->list_pengguna_hapus_user()
+#1 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2022-11-14 08:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:38 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 08:05:38 --> Too few arguments to function App\Controllers\admin\Admin::list_pengguna_hapus_user(), 0 passed in D:\laragon\www\kuydateng\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->list_pengguna_hapus_user()
+#1 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2022-11-14 08:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:39 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 08:05:39 --> Too few arguments to function App\Controllers\admin\Admin::list_pengguna_hapus_user(), 0 passed in D:\laragon\www\kuydateng\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->list_pengguna_hapus_user()
+#1 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2022-11-14 08:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:43 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 08:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:50 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 08:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:50 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 08:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:52 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 08:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:56 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 08:05:56 --> Too few arguments to function App\Controllers\admin\Admin::list_pengguna_hapus_user(), 0 passed in D:\laragon\www\kuydateng\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->list_pengguna_hapus_user()
+#1 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2022-11-14 08:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:57 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 08:05:57 --> Too few arguments to function App\Controllers\admin\Admin::list_pengguna_hapus_user(), 0 passed in D:\laragon\www\kuydateng\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->list_pengguna_hapus_user()
+#1 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2022-11-14 08:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:57 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 08:05:57 --> Too few arguments to function App\Controllers\admin\Admin::list_pengguna_hapus_user(), 0 passed in D:\laragon\www\kuydateng\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->list_pengguna_hapus_user()
+#1 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2022-11-14 08:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:58 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 08:05:58 --> Too few arguments to function App\Controllers\admin\Admin::list_pengguna_hapus_user(), 0 passed in D:\laragon\www\kuydateng\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->list_pengguna_hapus_user()
+#1 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2022-11-14 08:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:05:58 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 08:05:58 --> Too few arguments to function App\Controllers\admin\Admin::list_pengguna_hapus_user(), 0 passed in D:\laragon\www\kuydateng\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->list_pengguna_hapus_user()
+#1 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2022-11-14 08:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:06:15 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 08:06:15 --> Too few arguments to function App\Controllers\admin\Admin::list_pengguna_hapus_user(), 0 passed in D:\laragon\www\kuydateng\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->list_pengguna_hapus_user()
+#1 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2022-11-14 08:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:07:36 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 08:07:36 --> Too few arguments to function App\Controllers\admin\Admin::list_pengguna_hapus_user(), 0 passed in D:\laragon\www\kuydateng\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->list_pengguna_hapus_user()
+#1 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2022-11-14 08:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:08:26 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 08:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:10:03 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 08:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:10:07 --> Controller "App\Controllers\admin\Admin" loaded.
+CRITICAL - 2022-11-14 08:10:07 --> Too few arguments to function App\Controllers\admin\Admin::list_pengguna_hapus_user(), 0 passed in D:\laragon\www\kuydateng\system\CodeIgniter.php on line 910 and exactly 1 expected
+#0 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\admin\Admin->list_pengguna_hapus_user()
+#1 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Admin))
+#2 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2022-11-14 08:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:11:24 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 08:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:11:40 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 08:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:11:40 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-14 08:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:13:01 --> Controller "App\Controllers\base\Dashboard" loaded.
+INFO - 2022-11-14 08:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:13:02 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 08:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:15:40 --> Controller "App\Controllers\base\Dashboard" loaded.
+CRITICAL - 2022-11-14 08:15:40 --> Undefined index: sistem_versi
+#0 D:\laragon\www\kuydateng\app\Views\base\dashboard\layout.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 130, Array)
+#1 D:\laragon\www\kuydateng\system\View\View.php(236): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\kuydateng\system\Common.php(1071): CodeIgniter\View\View->render('base/dashboard/...', Array, true)
+#3 D:\laragon\www\kuydateng\app\Controllers\base\Dashboard.php(41): view('base/dashboard/...', Array)
+#4 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Dashboard->index()
+#5 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Dashboard))
+#6 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-11-14 08:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:15:40 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-14 08:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:16:46 --> Controller "App\Controllers\base\Dashboard" loaded.
+CRITICAL - 2022-11-14 08:16:46 --> Undefined offset: 0
+#0 D:\laragon\www\kuydateng\app\Views\base\dashboard\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 8, Array)
+#1 D:\laragon\www\kuydateng\system\View\View.php(236): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\kuydateng\system\Common.php(1071): CodeIgniter\View\View->render('base/dashboard/...', Array, true)
+#3 D:\laragon\www\kuydateng\app\Views\base\dashboard\layout.php(176): view('base/dashboard/...')
+#4 D:\laragon\www\kuydateng\system\View\View.php(236): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\kuydateng\system\Common.php(1071): CodeIgniter\View\View->render('base/dashboard/...', Array, true)
+#6 D:\laragon\www\kuydateng\app\Controllers\base\Dashboard.php(42): view('base/dashboard/...', Array)
+#7 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Dashboard->index()
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Dashboard))
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+INFO - 2022-11-14 08:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:17:15 --> Controller "App\Controllers\base\Dashboard" loaded.
+CRITICAL - 2022-11-14 08:17:15 --> Undefined offset: 0
+#0 D:\laragon\www\kuydateng\app\Views\base\dashboard\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 8, Array)
+#1 D:\laragon\www\kuydateng\system\View\View.php(236): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\kuydateng\system\Common.php(1071): CodeIgniter\View\View->render('base/dashboard/...', Array, true)
+#3 D:\laragon\www\kuydateng\app\Views\base\dashboard\layout.php(176): view('base/dashboard/...')
+#4 D:\laragon\www\kuydateng\system\View\View.php(236): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\kuydateng\system\Common.php(1071): CodeIgniter\View\View->render('base/dashboard/...', Array, true)
+#6 D:\laragon\www\kuydateng\app\Controllers\base\Dashboard.php(42): view('base/dashboard/...', Array)
+#7 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Dashboard->index()
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Dashboard))
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+INFO - 2022-11-14 08:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:17:32 --> Controller "App\Controllers\undangan\Undangan" loaded.
+INFO - 2022-11-14 08:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-14 08:17:32 --> Controller "App\Controllers\undangan\Undangan" loaded.
+CRITICAL - 2022-11-14 17:42:07 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-14 17:42:07 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-14 17:42:07 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-14 17:42:07 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

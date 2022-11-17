@@ -78,15 +78,24 @@ defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125); // highest auto
 
 /* PENGATURAN OFFLINE */ 
 // LINK DOMAIN WITH URL
-define('SITE_UTAMA', 'http://udo.co.id'); 
-define('SITE_UNDANGAN', 'http://buka.udo.co.id');
-define('SITE_ADMIN', 'http://refeed.co.id');
+// define('SITE_UTAMA', 'http://udo.co.id'); 
+// define('SITE_UNDANGAN', 'http://buka.udo.co.id');
+// define('SITE_ADMIN', 'http://owner.udo.co.id');
+
+define('SITE_UTAMA', 'https://kuydateng.test'); 
+define('SITE_UNDANGAN', 'https://buka.kuydateng.test');
+define('SITE_ADMIN', 'https://owner.kuydateng.test');
 
 //DOMAIN ONLY
-define('DOMAIN_UTAMA', 'udo.co.id');
-define('DOMAIN_UTAMA_WWW', 'www.udo.co.id');
-define('DOMAIN_UNDANGAN', 'buka.udo.co.id');
-define('DOMAIN_ADMIN', 'refeed.co.id');
+// define('DOMAIN_UTAMA', 'udo.co.id');
+// define('DOMAIN_UTAMA_WWW', 'www.udo.co.id');
+// define('DOMAIN_UNDANGAN', 'buka.udo.co.id');
+// define('DOMAIN_ADMIN', 'owner.udo.co.id');
+
+define('DOMAIN_UTAMA', 'kuydateng.test');
+define('DOMAIN_UTAMA_WWW', 'www.kuydateng.test');
+define('DOMAIN_UNDANGAN', 'buka.kuydateng.test');
+define('DOMAIN_ADMIN', 'owner.kuydateng.test');
 /**/
   
 /* PENGATURAN ONLINE * / 

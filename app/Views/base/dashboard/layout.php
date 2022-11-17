@@ -94,7 +94,7 @@
                     <a class="collapse-item <?php if ($pilihanmenu == "acara"){echo "active";}else{echo "";} ?>" href="<?= base_url('user/acara'); ?>">Acara</a>
                     <a class="collapse-item <?php if ($pilihanmenu == "album"){echo "active";}else{echo "";} ?>" href="<?= base_url('user/album'); ?>">Album</a>
                     <a class="collapse-item <?php if ($pilihanmenu == "cerita"){echo "active";}else{echo "";} ?>" href="<?= base_url('user/cerita'); ?>">Cerita</a>
-                    <a class="collapse-item <?php if ($pilihanmenuS5 == "bingkisan"){echo "active";}else{echo "";} ?>" href="<?= base_url('user/fitur/website/bingkisan'); ?>">Bingkisan</a>
+                    <a class="collapse-item <?php if (!empty($pilihanmenuS5) && $pilihanmenuS5 == "bingkisan"){echo "active";}else{echo "";} ?>" href="<?= base_url('user/fitur/website/bingkisan'); ?>">Bingkisan</a>
                 </div>
             </div>
         </li> 
@@ -127,7 +127,7 @@
         -->
 
         <hr class="sidebar-divider">
-        <div class="version" ><?= $website_umum[0]->website_isi ?> Versi <?= $_SESSION['sistem_versi'] ?></div>
+        <div class="version" ><?= $website_umum[0]->website_isi ?> Versi <?= $_SESSION['sistem_versi'] ?? $sistem_versi ?></div>
     </ul>
     <!-- Sidebar -->
 

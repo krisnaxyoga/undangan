@@ -100,11 +100,11 @@ class Admin extends Controller
 
         //ATURAN CSS MENU 
         $pilihanmenuS3  = $this->uri->getSegment(3);
-        $data['pilihanmenuS3'] = urldecode($pilihanmenuS3); 
-        //$pilihanmenuS4  = $this->uri->getSegment(4);
-        //$data['pilihanmenuS4'] = urldecode($pilihanmenuS4); 
-        //$pilihanmenuS5  = $this->uri->getSegment(5);
-        //$data['pilihanmenuS5'] = urldecode($pilihanmenuS5); 
+        $data['pilihanmenuS3'] = urldecode($pilihanmenuS3);
+        $pilihanmenuS4  = $this->uri->getSegment(4);
+        $data['pilihanmenuS4'] = urldecode($pilihanmenuS4);
+        // $pilihanmenuS5  = $this->uri->getSegment(5);
+        // $data['pilihanmenuS5'] = urldecode($pilihanmenuS5); 
         return view('admin/layout', $data);
     }
 
@@ -392,15 +392,14 @@ class Admin extends Controller
              }
              return rmdir($dir);
         }
-        public function list_pengguna_hapus_user($id_users){
+        public function list_pengguna_hapus_user($id_users = ""){
             // Jika $id_users kosong maka yang request delete dari menu LIST_PENGGUNA
             if($id_users == ""){
                 $id = $this->request->getPost('id');
-            }else{
+            } else {
                 // Jika $id_users berisi maka yang request dari menu DATABASE > RESTORE
                 $id = $id_users;
             }
-            
             
             //ALbum PENGGUNA
             $undangan_pengaturan = $this->AdminModel->get_undangan_pengaturan_by_id_user($id);

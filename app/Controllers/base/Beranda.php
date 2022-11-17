@@ -102,6 +102,10 @@ class Beranda extends Controller
 	}
 
 	public function demo(){
+
+		//Kondisi Web dijalankan  localhost/online
+		$data['cek_koneksi_internet'] = $this->cek_koneksi_internet();
+
 		//id user khusus demo
 		$idnya = '1';  
 
@@ -142,6 +146,10 @@ class Beranda extends Controller
 			$id=$idnya;
 			$siapa ="PENGGUNA"; 
 			$data['daftar_bank_pengguna'] = $this->BerandaModel->get_all_undangan_bank_by_siapa($id, $siapa);
+
+			// Kebutuhan SEO Share media sosial
+			$data['domain'] = urldecode('demo/' . $temanya);
+			$data['tamu_undangan'] = urldecode($invite);
 						
 			return view('undangan/themes/'.$temanya, $data); 
 
@@ -233,4 +241,20 @@ class Beranda extends Controller
 
 		return view('base/maps',$data);
 	}
+
+	/*---------------------------
+		CEK KONEKSI INTERNET
+	----------------------------*/
+	public function cek_koneksi_internet(){
+        $connected = @fsockopen("www.google.com", 80);
+        
+		if ($connected){
+            $is_conn = true; //jika koneksi tersambung maka bernilai true
+        	fclose($connected);
+        } else {
+            $is_conn = false; //jika koneksi gagal maka bernilai false
+        }
+
+        return $is_conn;
+    }   
 }

@@ -38,6 +38,7 @@ class Dashboard extends Controller
         //ATURAN CSS MENU 
         $pilihanmenu  = $this->uri->getSegment(3);
         $data['pilihanmenu'] = urldecode($pilihanmenu); 
+        $data['sistem_versi'] = $this->sistem_versi();
         return view('base/dashboard/layout', $data);
     }
 
@@ -52,8 +53,16 @@ class Dashboard extends Controller
             // SISTEM
             $sistem_versi = $this->sistem_versi();
             // set session
-            $sess_data = array('masukUser' => TRUE, 'uname' => $hasil[0]->username, 'id' => $hasil[0]->id, 'sistem_versi' => $sistem_versi, 'domain' => $hasil[0]->domain);
+            $sess_data = array(
+                'masukUser' => TRUE, 
+                'uname' => $hasil[0]->username, 
+                'id' => $hasil[0]->id, 
+                'sistem_versi' => $sistem_versi, 
+                'domain' => $hasil[0]->domain
+            );
+            
             $this->session->set($sess_data);
+            
             return redirect()->to(base_url('user/dashboard'));
             exit();
         }

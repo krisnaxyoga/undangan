@@ -1,0 +1,484 @@
+CRITICAL - 2022-11-04 20:13:54 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\undangan\app\Config\Events.php:27) in D:\laragon\www\undangan\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\undangan\system\Debug\Exceptions.php(161): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 20:13:54 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\undangan\app\Config\Events.php:27) in D:\laragon\www\undangan\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\undangan\system\Debug\Exceptions.php(161): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 20:35:23 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\undangan\app\Config\Events.php:27) in D:\laragon\www\undangan\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\undangan\system\Debug\Exceptions.php(161): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 20:35:24 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\undangan\app\Config\Events.php:27) in D:\laragon\www\undangan\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\undangan\system\Debug\Exceptions.php(161): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:03:44 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:03:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:03:56 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:03:56 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:05:46 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-04 21:05:46 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:05:46 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-04 21:05:46 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:05:47 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-04 21:05:47 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:05:47 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-04 21:05:47 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:05:47 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-04 21:05:47 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:05:47 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-04 21:05:47 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:42:46 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-04 21:42:46 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:42:46 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-04 21:42:46 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:42:58 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-04 21:42:58 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:42:58 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-04 21:42:58 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:44:41 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-04 21:44:41 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:44:41 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-04 21:44:41 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:44:45 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-04 21:44:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-04 21:44:45 --> Optional parameter $verbs declared before required parameter $to is implicitly treated as a required parameter
+#0 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parame...', 'D:\\laragon\\www\\...', 1018)
+#1 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#3 D:\laragon\www\kuydateng\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Rou...')
+#4 D:\laragon\www\kuydateng\system\Config\Services.php(684): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Rou...')
+#5 D:\laragon\www\kuydateng\system\Config\BaseService.php(123): CodeIgniter\Config\Services::routes(false)
+#6 D:\laragon\www\kuydateng\system\Config\Services.php(681): CodeIgniter\Config\BaseService::getSharedInstance('routes')
+#7 D:\laragon\www\kuydateng\app\Config\Routes.php(4): CodeIgniter\Config\Services::routes(true)
+#8 D:\laragon\www\kuydateng\system\CodeIgniter.php(772): require('D:\\laragon\\www\\...')
+#9 D:\laragon\www\kuydateng\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-04 21:44:45 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\laragon\www\kuydateng\app\Config\Events.php:27) in D:\laragon\www\kuydateng\system\Debug\Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\laragon\\www\\...', 161)
+#1 D:\laragon\www\kuydateng\system\Debug\Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2022-11-04 21:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:46:19 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-04 21:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:46:40 --> Controller "App\Controllers\undangan\Undangan" loaded.
+INFO - 2022-11-04 21:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:46:40 --> Controller "App\Controllers\undangan\Undangan" loaded.
+INFO - 2022-11-04 21:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:46:47 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-04 21:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:46:53 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-04 21:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:46:53 --> Controller "App\Controllers\admin\Admin" loaded.
+INFO - 2022-11-04 21:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:47:00 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-04 21:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:47:06 --> Controller "App\Controllers\base\Beranda" loaded.
+CRITICAL - 2022-11-04 21:47:06 --> Undefined variable: domain
+#0 D:\laragon\www\kuydateng\app\Views\undangan\themes\Gelap_Bercahaya.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 49, Array)
+#1 D:\laragon\www\kuydateng\system\View\View.php(236): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\kuydateng\system\Common.php(1071): CodeIgniter\View\View->render('undangan/themes...', Array, true)
+#3 D:\laragon\www\kuydateng\app\Controllers\base\Beranda.php(146): view('undangan/themes...', Array)
+#4 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Beranda->demo()
+#5 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Beranda))
+#6 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-11-04 21:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:47:07 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-04 21:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:47:16 --> Controller "App\Controllers\base\Beranda" loaded.
+CRITICAL - 2022-11-04 21:47:16 --> Undefined variable: domain
+#0 D:\laragon\www\kuydateng\app\Views\undangan\themes\Gelap_Bercahaya.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 49, Array)
+#1 D:\laragon\www\kuydateng\system\View\View.php(236): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\kuydateng\system\Common.php(1071): CodeIgniter\View\View->render('undangan/themes...', Array, true)
+#3 D:\laragon\www\kuydateng\app\Controllers\base\Beranda.php(146): view('undangan/themes...', Array)
+#4 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Beranda->demo()
+#5 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Beranda))
+#6 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-11-04 21:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:47:16 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-04 21:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:47:29 --> Controller "App\Controllers\base\Beranda" loaded.
+CRITICAL - 2022-11-04 21:47:29 --> Undefined variable: domain
+#0 D:\laragon\www\kuydateng\app\Views\undangan\themes\Gelap_Bercahaya.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 49, Array)
+#1 D:\laragon\www\kuydateng\system\View\View.php(236): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\kuydateng\system\Common.php(1071): CodeIgniter\View\View->render('undangan/themes...', Array, true)
+#3 D:\laragon\www\kuydateng\app\Controllers\base\Beranda.php(146): view('undangan/themes...', Array)
+#4 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Beranda->demo()
+#5 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Beranda))
+#6 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-11-04 21:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:47:29 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-04 21:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:47:37 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-04 21:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:47:40 --> Controller "App\Controllers\base\Beranda" loaded.
+CRITICAL - 2022-11-04 21:47:40 --> Undefined variable: domain
+#0 D:\laragon\www\kuydateng\app\Views\undangan\themes\Bunga_Pink.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 47, Array)
+#1 D:\laragon\www\kuydateng\system\View\View.php(236): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\kuydateng\system\Common.php(1071): CodeIgniter\View\View->render('undangan/themes...', Array, true)
+#3 D:\laragon\www\kuydateng\app\Controllers\base\Beranda.php(146): view('undangan/themes...', Array)
+#4 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Beranda->demo()
+#5 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Beranda))
+#6 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-11-04 21:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:47:41 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-04 21:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:48:18 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-04 21:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:48:30 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-11-04 21:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:49:10 --> Controller "App\Controllers\base\Beranda" loaded.
+CRITICAL - 2022-11-04 21:49:10 --> Undefined variable: domain
+#0 D:\laragon\www\kuydateng\app\Views\undangan\themes\Bunga_Pink.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 47, Array)
+#1 D:\laragon\www\kuydateng\system\View\View.php(236): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\kuydateng\system\Common.php(1071): CodeIgniter\View\View->render('undangan/themes...', Array, true)
+#3 D:\laragon\www\kuydateng\app\Controllers\base\Beranda.php(146): view('undangan/themes...', Array)
+#4 D:\laragon\www\kuydateng\system\CodeIgniter.php(910): App\Controllers\base\Beranda->demo()
+#5 D:\laragon\www\kuydateng\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\base\Beranda))
+#6 D:\laragon\www\kuydateng\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\kuydateng\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2022-11-04 21:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-11-04 21:49:10 --> Controller "App\Controllers\base\Beranda" loaded.

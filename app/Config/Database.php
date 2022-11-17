@@ -32,15 +32,12 @@ class Database extends \CodeIgniter\Database\Config
 	public $default = [
 		'DSN'      => '',
 		
-	
-	
 	/* PENGATURAN OFFLINE */ 
 		'hostname' => 'localhost',
 		'username' => 'root',
 		'password' => '',
 		'database' => 'udo',
     /**/
-
 
 	/* PENGATURAN ONLINE * / 	
 		'hostname' => 'localhost',

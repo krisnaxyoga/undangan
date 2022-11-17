@@ -52,7 +52,7 @@
                 <i class="fas fa-globe text-primary"></i>
                 <span class="text-primary">Lihat Website</span></a>
         </li>
-        <li class="nav-item <?php if ($pilihanmenuS3 == "dashboard"){echo "active";}else{echo "";} ?>">
+        <li class="nav-item <?php if (!empty($pilihanmenuS3) && $pilihanmenuS3 == "dashboard"){echo "active";}else{echo "";} ?>">
             <a class="nav-link" href="<?= base_url('admin/dashboard'); ?>">
                 <i class="fas fa-fw fa-tachometer-alt text-primary"></i>
                 <span class="text-primary">Dashboard</span></a>
@@ -62,17 +62,17 @@
             <a class="nav-link underline" href=""> 
                 <span >Data Pengguna</span></a>
         </li>
-        <li class="nav-item <?php if ($pilihanmenuS4 == "list-pengguna"){echo "active";}else{echo "";} ?>">
+        <li class="nav-item <?php if (!empty($pilihanmenuS4) && $pilihanmenuS4 == "list-pengguna"){echo "active";}else{echo "";} ?>">
             <a class="nav-link" href="<?= base_url('admin/data-pengguna/list-pengguna'); ?>">
                 <i class="fas fa-fw fa-user-alt text-danger"></i>
                 <span class="text-danger">List Pengguna</span></a>
         </li>
-        <li class="nav-item <?php if ($pilihanmenuS4 == "pembayaran-pengguna"){echo "active";}else{echo "";} ?>">
+        <li class="nav-item <?php if (!empty($pilihanmenuS4) && $pilihanmenuS4 == "pembayaran-pengguna"){echo "active";}else{echo "";} ?>">
             <a class="nav-link" href="<?= base_url('admin/data-pengguna/pembayaran-pengguna'); ?>">
                 <i class="fas fa-fw fa-money-bill-alt text-danger"></i>
                 <span class="text-danger">Pembayaran Pengguna</span></a>
         </li>
-        <li class="nav-item <?php if ($pilihanmenuS4 == "permintaan-upgrade-paket"){echo "active";}else{echo "";} ?>">
+        <li class="nav-item <?php if (!empty($pilihanmenuS4) && $pilihanmenuS4 == "permintaan-upgrade-paket"){echo "active";}else{echo "";} ?>">
             <a class="nav-link" href="<?= base_url('admin/data-pengguna/permintaan-upgrade-paket'); ?>">
                 <i class="fas fa-fw fa-list text-danger"></i>
                 <span class="text-danger">Permintaan Upgrade Paket</span></a>
@@ -82,18 +82,18 @@
             <a class="nav-link underline" href=""> 
                 <span class="">Pengaturan UDO</span></a>
         </li>
-        <li class="nav-item <?php if ($pilihanmenuS4 == "paket-undangan"){echo "active";}else{echo "";} ?>">
+        <li class="nav-item <?php if (!empty($pilihanmenuS4) && $pilihanmenuS4 == "paket-undangan"){echo "active";}else{echo "";} ?>">
             <a class="nav-link" href="<?= base_url('admin/pengaturan-udo/paket-undangan'); ?>">
                 <i class="fas fa-fw fa-list text-success"></i>
                 <span class="text-success">Paket</span></a>
         </li>
         <!--
-        <li class="nav-item <?php if ($pilihanmenuS3 == "sepatah-kata-undangan"){echo "active";}else{echo "";} ?>">
+        <li class="nav-item <?php if (!empty($pilihanmenuS3) && $pilihanmenuS3 == "sepatah-kata-undangan"){echo "active";}else{echo "";} ?>">
             <a class="nav-link" href="<?= base_url('admin/sepatah-kata-undangan'); ?>">
                 <i class="fas fa-fw fa-book text-success"></i>
                 <span class="text-success">Sepatah Kata</span></a>
         </li>
-        <li class="nav-item <?php if ($pilihanmenuS3 == "tema-undangan"){echo "active";}else{echo "";} ?>">
+        <li class="nav-item <?php if (!empty($pilihanmenuS3) && $pilihanmenuS3 == "tema-undangan"){echo "active";}else{echo "";} ?>">
             <a class="nav-link" href="<?= base_url('admin/tema-undangan'); ?>">
                 <i class="fas fa-fw fa-image text-success"></i>
                 <span class="text-success">Tema</span></a>
@@ -103,7 +103,7 @@
             <a class="nav-link underline " href=""> 
                 <span class=" ">Pengaturan Website</span></a>
         </li>
-        <li class="nav-item <?php if ($pilihanmenuS4 == "umum"){echo "active";}else{echo "";} ?>">
+        <li class="nav-item <?php if (!empty($pilihanmenuS4) && $pilihanmenuS4 == "umum"){echo "active";}else{echo "";} ?>">
             <a class="nav-link" href="<?= base_url('admin/pengaturan-website/umum'); ?>">
                 <i class="fas fa-globe text-warning"></i>
                 <span class="text-warning">Umum</span></a>
@@ -112,19 +112,19 @@
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseWidget" aria-expanded="true" aria-controls="collapseWidget">
                 <i class="fas fa-cog text-warning"></i>
                 <span class="text-warning">Widget</span></a>
-            <div id="collapseWidget" class="text-warning collapse <?php if ($pilihanmenuS4 == "widget" ){echo "show active";}else{echo "";} ?>" aria-labelledby="headingTable" data-parent="#accordionSidebar">
+            <div id="collapseWidget" class="text-warning collapse <?php if (!empty($pilihanmenuS4) && $pilihanmenuS4 == "widget" ){echo "show active";}else{echo "";} ?>" aria-labelledby="headingTable" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-                    <a class="text-warning collapse-item <?php if ($pilihanmenuS5 == "home"){echo "active";}else{echo "";} ?>" href="<?= base_url('admin/pengaturan-website/widget/home'); ?>">Home</a>
+                    <a class="text-warning collapse-item <?php if (!empty($pilihanmenuS5) && $pilihanmenuS5 == "home"){echo "active";}else{echo "";} ?>" href="<?= base_url('admin/pengaturan-website/widget/home'); ?>">Home</a>
                     
                 </div>   
             </div>    
         </li>
-        <li class="nav-item <?php if ($pilihanmenuS4 == "bank-admin"){echo "active";}else{echo "";} ?>">
+        <li class="nav-item <?php if (!empty($pilihanmenuS4) && $pilihanmenuS4 == "bank-admin"){echo "active";}else{echo "";} ?>">
             <a class="nav-link" href="<?= base_url('admin/pengaturan-website/bank-admin'); ?>">
                 <i class="fas fa-money-bill text-warning"></i>
                 <span class="text-warning">Bank Admin</span></a>
         </li>
-        <li class="nav-item <?php if ($pilihanmenuS4 == "database"){echo "active";}else{echo "";} ?>">
+        <li class="nav-item <?php if (!empty($pilihanmenuS4) && $pilihanmenuS4 == "database"){echo "active";}else{echo "";} ?>">
             <a class="nav-link" href="<?= base_url('admin/pengaturan-website/database'); ?>">
                 <i class="fas fa-database text-warning"></i>
                 <span class="text-warning">Database</span></a>
@@ -143,7 +143,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <ul class="navbar-nav ml-auto">
-                    <!-- NOTIF -- >
+                    <!-- NOTIF -->
                     <li class="nav-item dropdown no-arrow">
                         <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">

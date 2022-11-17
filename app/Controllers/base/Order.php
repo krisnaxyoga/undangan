@@ -24,7 +24,7 @@ class Order extends Controller
 	public function index()
 	{
 		//mengambil data widget
-		$data['widget_data_footer_kanan'] = $this->OrderModel->get_all_website_widget_posisi("footer_kanan");
+		$data['widget_data_footer_kanan'] = $this->OrderModel->get_all_website_widget_posisi("home_footer_kiri");
         $data['widget_data_footer_kanan_link'] = $this->OrderModel->get_all_website_widget_links( $data['widget_data_footer_kanan'][0]->widget_id);
 
 		//ambil data UNDANGAN PAKET
@@ -78,7 +78,7 @@ class Order extends Controller
 	public function mempelai()
 	{
 		//mengambil data widget
-		$data['widget_data_footer_kanan'] = $this->OrderModel->get_all_website_widget_posisi("footer_kanan");
+		$data['widget_data_footer_kanan'] = $this->OrderModel->get_all_website_widget_posisi("home_footer_kanan");
         $data['widget_data_footer_kanan_link'] = $this->OrderModel->get_all_website_widget_links( $data['widget_data_footer_kanan'][0]->widget_id);
 
 		// cek pengiriman data & simpan form data sebelumnya (awal)
@@ -145,7 +145,7 @@ class Order extends Controller
 
 	public function acara(){
 		//mengambil data widget
-		$data['widget_data_footer_kanan'] = $this->OrderModel->get_all_website_widget_posisi("footer_kanan");
+		$data['widget_data_footer_kanan'] = $this->OrderModel->get_all_website_widget_posisi("home_footer_kanan");
         $data['widget_data_footer_kanan_link'] = $this->OrderModel->get_all_website_widget_links( $data['widget_data_footer_kanan'][0]->widget_id);
 
 		// cek pengiriman data & simpan form data sebelumnya
@@ -179,7 +179,7 @@ class Order extends Controller
 
 	public function cerita(){
 		//mengambil data widget
-		$data['widget_data_footer_kanan'] = $this->OrderModel->get_all_website_widget_posisi("footer_kanan");
+		$data['widget_data_footer_kanan'] = $this->OrderModel->get_all_website_widget_posisi("home_footer_kanan");
         $data['widget_data_footer_kanan_link'] = $this->OrderModel->get_all_website_widget_links( $data['widget_data_footer_kanan'][0]->widget_id);
 
 		$submit = $this->request->getPost('submit');
@@ -211,7 +211,7 @@ class Order extends Controller
 
 	public function gallery(){
 		//mengambil data widget
-		$data['widget_data_footer_kanan'] = $this->OrderModel->get_all_website_widget_posisi("footer_kanan");
+		$data['widget_data_footer_kanan'] = $this->OrderModel->get_all_website_widget_posisi("home_footer_kanan");
         $data['widget_data_footer_kanan_link'] = $this->OrderModel->get_all_website_widget_links( $data['widget_data_footer_kanan'][0]->widget_id);
 
 		$submit = $this->request->getPost('submit');
@@ -471,7 +471,7 @@ class Order extends Controller
 
 	 public function finish(){
 		//mengambil data widget
-		$data['widget_data_footer_kanan'] = $this->OrderModel->get_all_website_widget_posisi("footer_kanan");
+		$data['widget_data_footer_kanan'] = $this->OrderModel->get_all_website_widget_posisi("home_footer_kanan");
         $data['widget_data_footer_kanan_link'] = $this->OrderModel->get_all_website_widget_links( $data['widget_data_footer_kanan'][0]->widget_id);
 
 	 	$submit = $this->request->getPost('submit');
@@ -512,7 +512,7 @@ class Order extends Controller
 
 	 public function success(){
 		//mengambil data widget
-		$data['widget_data_footer_kanan'] = $this->OrderModel->get_all_website_widget_posisi("footer_kanan");
+		$data['widget_data_footer_kanan'] = $this->OrderModel->get_all_website_widget_posisi("home_footer_kanan");
         $data['widget_data_footer_kanan_link'] = $this->OrderModel->get_all_website_widget_links( $data['widget_data_footer_kanan'][0]->widget_id);
 
 	 	$kode = $this->uri->getSegment(4);
